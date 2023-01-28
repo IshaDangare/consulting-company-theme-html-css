@@ -1,0 +1,50 @@
+.banner{
+    margin:5rem 0rem 0rem 0rem;
+    height:70vh;
+    width: 100%;
+}
+
+.con-para-2 {
+    display: flex;
+    color: purple;
+    justify-content: space-around;
+    margin: 8rem 2.5rem 0 1rem;
+    border-bottom: solid;
+    margin: 10rem 25rem 1rem 25rem;
+    text-align: center;
+}
+.center{
+    text-align: center;
+    margin-top: 6rem;
+    margin-bottom: 3rem;
+    color: purple;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+    margin: 7rem 7rem;
+    text-align: center;
+}
+.con-para-abt{
+    display: flex;
+    margin: 1rem 5rem;
+    justify-content: space-between;
+}
+.service2-img-1-about{
+        margin-top: 5%;
+        position: relative;
+        margin-left: 55%;
+    }
+.call-img-2-abt {
+        padding-left: 35px;
+        height: 4rem;
+    }
+    .about{
+        display: flex;
+    }
+    .about .address-img-abt {
+        width: 1.5rem;
+        height: 4vh;
+        margin-right: 2rem;
+    }
+    

@@ -1,0 +1,378 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  body {
+    padding: 0;
+    margin: 0;
+    height: 160vh;
+  }
+
+.container1{
+    margin-right: 0rem;
+    width: 50%;
+    
+}
+.para{
+    display: flex;
+    width: 76%;
+    padding-top: 3rem;
+}
+.address{
+    width:76%;
+    display: flex;
+    margin-top: 2rem;
+    /* justify-content: space-between; */
+}
+.address img{
+    width: 3rem;
+    height: 8vh;
+    margin-right: 2rem;
+}
+.text h4{
+    font-weight: 600;
+}
+.contact{
+    width:76%;
+    display: flex;
+    margin-top: 2rem;
+    /* justify-content: space-between; */
+}
+.contact img{
+    width: 3rem;
+    height: 8vh;
+    margin-right: 2rem;
+}
+.con-para{
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: space-around;
+    margin:6rem 2.5rem 0 2.5rem;
+    /* padding-left: 5rem; */
+    /* width: 90%; */
+}
+.con-para h2{
+    border-left: 0.28rem solid purple;
+    height: 85px;
+    font-weight: 600;
+    color: #142640;
+    text-align-last: left;
+    /* padding-bottom: 10px; */
+}
+.container2{
+    background-color: white;
+    width: 90%;
+ }
+ .btn {
+    margin-left: -10rem;
+    margin-top: 4rem;
+    background-color: #FCCA46;
+    border: none;
+    width: 44%;
+    margin-left: 4.8rem;
+    height: 6vh;
+}
+ .fist-2{
+    display: flex;
+    margin-top: 0rem;
+ 
+}
+input[type=text]{
+    margin-right: 6rem;
+}
+input[type=phone]{
+    margin-right:6rem;
+}
+input[type=email]{
+    margin-right: 6rem;
+}
+input[type=subject]{
+    margin-right: 6rem;
+}
+input[type=message]{
+    margin-right: 6rem;
+}
+.second-2{
+    /* display: flex; */
+    margin-top:3rem;
+}
+button.btn.btn-primary {
+    position: static;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 22px;
+    line-height: 1.5;
+    }
+    @media only screen and (min-width: 400px) and (max-width: 900px) {
+        .con-para {
+        display: flex !important;
+        flex-wrap: wrap !important;
+    }
+    nav .icon-burger {
+  display: block;
+  margin-top: -25rem;
+}
+
+    }
+    
+
+  @media only screen and (min-width: 768px) and (max-width: 1050px) {
+    .con-para {
+       
+        display: flex !important;
+        flex-wrap: wrap !important;
+        width: 100%;
+        margin-left: 1rem;
+    }
+    .con-para h2 {
+        font-size: 1rem;
+    }
+    .container1 {
+        width: 100%;
+    }
+    .para {
+        width: 24rem;
+        padding-top: 1rem !important;
+        font-size: 0.8rem;
+    }
+    .text h4{
+        font-size: 1rem;
+    }
+    .text p {
+        width: 95%;
+        font-size: 0.8rem;
+    }
+  .address-img{
+    width: 3rem !important;
+    height: 3rem!important;
+  }
+  .container2 {
+    margin-right: 8rem;
+    margin-top: 6rem;
+}
+.fist-2 {
+    display: flex;
+    margin-top: 1rem;
+    font-size: 0.8rem;
+    width: 50%;
+    flex-wrap: wrap;
+}
+.second-2{
+    display: flex;
+    margin-top: 0rem;
+    font-size: 0.8rem;
+    flex-wrap: wrap;
+    width: 50%;
+}
+.mb-3 label{
+    font-size: 0.8rem;
+}
+#message.form-control {
+    width: 50%;
+}
+.btn {
+    margin-left: -20.5rem;
+    margin-top: 22rem;
+    width: 45%;
+    height: 6vh;
+}
+.footer {
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.btn-1 {
+    top: 10px;
+    padding: 15px 19px;
+    font-size: 12px;
+    padding-left: 20px;
+    margin-left: 0.2rem;
+}
+
+.p1 p {
+    font-size: 1rem;
+    width: 100%;
+}
+
+.p2 {
+    width: 74%;
+    margin-top:4rem ;
+}
+.p2 h4 {
+    color: white;
+    font-size: 0.9rem;
+}
+.p2 p {
+    font-size: 0.7rem;
+    margin-top: -1rem;
+}
+.fa {
+    padding: 5px;
+    text-align: center;
+    margin: 5px 2px;
+    font-size: 17px;
+    width: 29px;
+}
+.p3 h4 {
+    color: white;
+    font-size: 0.9rem;
+    margin-top: 5rem;
+}
+.p3 h6 {
+    color: #babdc2;
+    width: 100%;
+    text-align: left;
+    padding: 0rem 0rem;
+    margin-top: -3rem;
+    font-size: 0.7rem;
+}
+hr {
+    width: 266%;
+}
+.p3 p {
+    font-size: 0.7rem;
+}
+
+button.btn.btn-primary {
+    position: static;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 22px;
+    line-height: 1.5;
+    }
+    
+}
+
+
+
+  @media only screen and (max-width:767px) {
+    
+    .con-para {
+        display: flex !important;
+        flex-wrap: wrap !important;
+        width: 100%;
+        margin: 0 auto;
+        padding: 0 15px;
+    }
+    .para {
+        width: 24rem;
+        padding-top: 1rem;
+    }
+    .con-para h2 {
+        font-size: 1rem;
+    }
+    .container1 {
+        width: 100%;
+    }
+    .text h4{
+        font-size: 1rem;
+    }
+  .text p{
+    width: 100%;
+    font-size: 0.8rem;
+  }
+  .address-img{
+    width: 3rem !important;
+    height: 3rem!important;
+  }
+  .container2 {
+    margin-right: 8rem;
+    margin-top: 6rem;
+}
+.fist-2 {
+    display: flex;
+    margin-top: 1rem;
+    font-size: 0.8rem;
+    flex-wrap: wrap;
+}
+.second-2{
+    display: flex;
+    margin-top: 0rem;
+    font-size: 0.8rem;
+    flex-wrap: wrap;
+}
+.mb-3 label{
+    font-size: 0.8rem;
+}
+.btn {
+    margin-left: -10.5rem;
+    margin-top: 31rem;
+    width: 89%;
+}
+.footer {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    height: 110vh;
+}
+.p1 p {
+    color: white;
+    width: 100%;
+    text-align: left;
+    margin-left: 0rem;
+    font-size: 1rem;
+    font-weight: 600;
+}
+.btn-1 {
+    font-size: 11px;
+}
+.p2 {
+    width: 74%;
+    margin-top:4rem ;
+}
+.p2 h4 {
+    color: white;
+    font-size: 0.9rem;
+}
+.p2 p {
+    font-size: 0.7rem;
+    margin-top: -1rem;
+}
+.fa {
+    padding: 5px;
+    text-align: center;
+    margin: 5px 2px;
+    font-size: 17px;
+    width: 29px;
+}
+.p3 h4 {
+    color: white;
+    font-size: 0.9rem;
+    margin-top: 5rem;
+}
+.p3 h6 {
+    color: #babdc2;
+    width: 100%;
+    text-align: left;
+    padding: 0rem 0rem;
+    margin-top: -3rem;
+    font-size: 0.7rem;
+}
+hr {
+    width: 266%;
+}
+.p3 p {
+    font-size: 0.7rem;
+}
+
+button.btn.btn-primary {
+position: static;
+margin: 0;
+display: flex;
+align-items: center;
+justify-content: center;
+padding: 22px;
+line-height: 1.5;
+}
+
+
+
+  }
+  

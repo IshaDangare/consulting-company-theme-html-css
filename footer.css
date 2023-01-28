@@ -1,0 +1,213 @@
+
+/*  */
+/*  */
+/* footer start */
+
+.footer{
+    background-color:  rgba(92,24,180,1);
+    display: flex;
+    justify-content: space-between;
+    /* display: grid;
+    grid-template-columns: repeat(3,1fr); */
+    margin-top: 15rem;
+    height: 60vh;
+    padding: 9rem 3rem 0rem 3rem;
+   }
+.logo2{
+    width: 35rem;
+    height: 10vh;
+    margin-left: -18rem;
+    background-color: white;
+}
+.p1{
+    color: white; 
+    width: 70%;
+    text-align: left;
+  
+}
+.p1 p{
+    color: white; 
+    width: 70%;
+    text-align: left; 
+    margin-left: 0rem;
+    font-size: 1rem;
+    font-weight: 600;
+}
+.p2 {
+    color: white;
+    width: 40%;
+    text-align: left;
+    /* margin: 3rem 4rem; */
+}
+
+.p2 h4{
+    color: white;
+}
+.p2 p{
+    color:white;
+    font-size: 1rem;
+    /* padding: 0rem 1rem; */
+    text-align: left;
+    padding-top: 2rem;
+    /* padding-bottom: 2rem; */
+    display: flex;
+}
+.p2 a{
+    font-size: 1.2;
+}
+/* .p2 a{
+    color:#FCCA46;
+    font-size: 1rem;
+    text-align: left;
+    padding-left: 0.7rem;
+    padding-bottom: 1rem;
+    display: flex;
+} */
+.p3 h6 {
+    color: white;
+    width: 100%;
+    text-align: left;
+    padding: 2rem 0rem;
+}
+.p3 h4{
+    color: white;
+}
+.p3 {
+    font-size: 1rem;
+    color: white;
+    width: 40%;
+}
+.p3 p{
+    font-size: 1rem;
+    color:white;
+}
+.btn-1 {
+    border: none;
+    /* background: linear-gradient(90deg, rgba(92,24,180,1) 0%, rgba(181,29,235,1) 35%, rgba(204,37,203,1) 100%); */
+    background: linear-gradient(90deg, rgba(92,24,180,1) 0%, rgba(181,29,235,1) 35%, rgba(204,37,203,1) 100%);
+
+    top: -2px;
+    padding: 15px 40px;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-right: 10px;
+    padding-left: 30px;
+    text-align: left;
+    transition: ease-out 0.3s;
+    margin-left: 1.2rem;
+    border-radius: 3rem;
+}
+
+.btn-1:hover {
+    box-shadow: inset 400px 0 0 0  rgba(181,29,235,1) ;
+    cursor: pointer;
+    color: white;
+}
+.btn-3 {
+    border: none;
+    /* background: linear-gradient(90deg, rgba(92,24,180,1) 0%, rgba(181,29,235,1) 35%, rgba(204,37,203,1) 100%); */
+    background:white;
+color: purple;
+    top: -2px;
+    padding: 15px 40px;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-right: 10px;
+    padding-left: 30px;
+    text-align: left;
+    transition: ease-out 0.3s;
+    margin-left: 1.2rem;
+    border-radius: 3rem;
+}
+.btn-3:hover {
+    box-shadow: inset 400px 0 0 0  rgba(181,29,235,1) ;
+    cursor: pointer;
+    color: white;
+}
+.icons{
+    display: flex;
+}
+.fa {  
+    padding: 10px;  
+  text-align: center;  
+    margin: 5px 2px;  
+    font-size: 30px;  
+    width: 50px;  
+  }  
+  .fa-facebook {  
+    background:  #233D63;
+    color: white;  
+    border-radius: 0.4rem;
+  } 
+  .fa-instagram{  
+    background:  #233D63; 
+    color: white;  
+    border-radius: 0.4rem;
+  }
+  .fa-linkedin{  
+    background:  #233D63;
+    color: white; 
+    border-radius: 0.4rem; 
+  }
+  @media only screen and (max-width:767px) {
+    
+
+.footer {
+    width: 118%;
+    display: flex;
+    flex-wrap: wrap;
+    height: 110vh;
+}
+.p1 p {
+    color: white;
+    width: 100%;
+    text-align: left;
+    margin-left: 0rem;
+    font-size: 1rem;
+    font-weight: 600;
+}
+.btn-1 {
+    font-size: 11px;
+}
+.p2 {
+    width: 74%;
+    margin-top:4rem ;
+}
+.p2 h4 {
+    color: white;
+    font-size: 0.9rem;
+}
+.p2 p {
+    font-size: 0.7rem;
+    margin-top: -1rem;
+}
+.fa {
+    padding: 5px;
+    text-align: center;
+    margin: 5px 2px;
+    font-size: 17px;
+    width: 29px;
+}
+.p3 h4 {
+    color: white;
+    font-size: 0.9rem;
+    margin-top: 5rem;
+}
+.p3 h6 {
+    color: #babdc2;
+    width: 100%;
+    text-align: left;
+    padding: 0rem 0rem;
+    margin-top: -3rem;
+    font-size: 0.7rem;
+}
+hr {
+    width: 266%;
+}
+.p3 p {
+    font-size: 0.7rem;
+}
+
+  }
